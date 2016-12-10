@@ -6,6 +6,31 @@ Evan Johnson + Brian Cama
 
 ---
 
+## About Us
+
+* Front-End Engineer, Amazon & Freelance Web Developer<!--- .element: class="fragment" data-fragment-index="1" -->
+* Both of us are self-taught<!--- .element: class="fragment" data-fragment-index="2" -->
+* Loves JavaScript<!--- .element: class="fragment" data-fragment-index="3" -->
+
+----
+
+## About You
+
+* Introduce yourself (i.e. name, what you do, random fact)<!--- .element: class="fragment" data-fragment-index="1" -->
+* Why do you want to learn Programming?<!--- .element: class="fragment" data-fragment-index="2" -->
+
+----
+
+## Exercise Files
+
+<img src="img/Octocat.png" width="200" style="border:none;box-shadow:none; width: 200px; display:block;margin:30px auto;background:transparent;"/>
+
+* https://github.com/js-workshops/intro
+* Download files using git clone or the ‘Download Zip’ button
+* After unzipping the files, copy them to a directory you want to work from (i.e. ~/Document, ~/Desktop)
+
+---
+
 ## HTML
 
 <img src="../img/html5.png" style="border:none; height:400px; background: transparent; box-shadow:none;" />
@@ -672,4 +697,3 @@ Bootstrap provides reusable modules that help you build out components of your w
 
 <img src="/img/code_along.png" style="border:none;box-shadow:none;background:transparent;" />
 
----
