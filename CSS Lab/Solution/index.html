@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TwitPics</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>TwitPics</h1>
+    </nav>
+    <!-- Add input tag for search bar -->
+    <form>
+      <input type="text" placeholder="Search">
+      <button id="search-button" type="submit">Search</button>
+    </form>
+    <!-- Group this section together. What tag could we use instead of <div>? -->
+    <div>
+      <!-- Group each image with it's corresponding information -->
+      <div class="tweet-card">
+        <img src="images/twitter.png">
+        <div>
+          <h4>Username</h4>
+          <p>This is my tweet content</p>
+          <a class="btn" href="https://twitter.com">Go to Tweet</a>
+        </div>
+      </div>
+      <div class="tweet-card">
+        <img src="images/instagram.png">
+        <div>
+          <h4>Username 2</h4>
+          <p>This is my other tweet content</p>
+          <a class="btn" href="https://instagram.com">Let's not go to Tweet</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

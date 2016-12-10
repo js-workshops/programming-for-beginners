@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TwitPics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; margin-bottom: 30px;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img alt="Brand" style="margin-top: 0;" src="images/twitter-outline.png">
+            TwitPics
+        </a>
+        <form class="form-inline float-xs-right" id="searchForm">
+            <input id="searchField"  class="form-control" type="text" placeholder="">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Search Results Container -->
+        <div class="card-columns" id="searchResults">
+          <div class="card">
+            <img src="images/twitter.png" class="card-img-top img-fluid">
+            <div class="card-block">
+              <h4 class="card-title">Username</h4>
+              <p class="card-text">This is my tweet content</p>
+              <a class="btn btn-primary target="blank" href="https://twitter.com">Go to Tweet</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/instagram.png" class="card-image-top img-fluid">
+            <div class="card-block">
+              <h4 class="card-title">Username 2</h4>
+              <p class="card-text">This is my other tweet content</p>
+              <a class="btn btn-primary target="blank" href="https://instagram.com">Go Somewhere</a>
+            </div>
+          </div>
+        </div>
+        <!-- /#searchResults -->
+    </div>
+  </body>
+</html>

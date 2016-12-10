@@ -1,0 +1,47 @@
+body {
+  max-width: 1020px;
+  margin: auto;
+}
+
+h1 {
+  color: red;
+  font-size: 38px;
+}
+
+input {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+#search-button {
+    color: #5cb85c;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #5cb85c;
+    background-color: transparent;
+}
+
+.btn {
+  background-color: #0275d8;
+  color: white;
+  text-decoration: none;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.tweet-card {
+  float: left;
+  margin-right: 30px;
+  border-radius: .25rem;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
