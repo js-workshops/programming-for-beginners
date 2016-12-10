@@ -29,8 +29,8 @@ $(document).ready(function() {
   function formatResults(dataArray) {
     var resultHTML = '';
 
-    // Add your imageTemplate() function here
-    function imageTemplate(tweet) {
+    // Add your cardTemplate() function here
+    function cardTemplate(tweet) {
       var resultHTML = '<div class="card">';                      // opening parent DIV
       resultHTML += '<img src="';                                 // opening img tag
       resultHTML += tweet.image;                                  // image url
@@ -49,7 +49,7 @@ $(document).ready(function() {
     }
 
     for(var i = 0; i < dataArray.length; i++) {
-      resultHTML += imageTemplate(dataArray[i]);
+      resultHTML += cardTemplate(dataArray[i]);
     }
     return resultHTML;
   }
