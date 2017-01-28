@@ -19,7 +19,7 @@
 * Create a JS Variable<!--- .element: class="fragment" data-fragment-index="2" -->
 * Describe 3 different types of variables<!--- .element: class="fragment" data-fragment-index="3" -->
 * Apply JS Operators to:<!--- .element: class="fragment" data-fragment-index="4" -->
-  * preform arithmetic<!--- .element: class="fragment" data-fragment-index="5" -->
+  * perform arithmetic<!--- .element: class="fragment" data-fragment-index="5" -->
   * concatenate strings<!--- .element: class="fragment" data-fragment-index="6" -->
   * compare variables<!--- .element: class="fragment" data-fragment-index="7" -->
 * Create a JS Object<!--- .element: class="fragment" data-fragment-index="8" -->

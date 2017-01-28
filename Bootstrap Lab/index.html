@@ -9,31 +9,41 @@
     <link rel="stylesheet" type="text/css" href="css/global.css" />
   </head>
   <body>
-    <nav>
-      <h1>TwitPics</h1>
-    </nav>
-    <!-- Add input tag for search bar -->
-    <form>
-      <input type="text" placeholder="Search">
-      <button id="search-button" type="submit">Search</button>
-    </form>
-    <!-- Group this section together. What tag could we use instead of <div>? -->
-    <div>
-      <!-- Group each image with it's corresponding information -->
-      <div class="tweet-card">
-        <img src="images/twitter.png">
-        <div>
-          <h4>Username</h4>
-          <p>This is my tweet content</p>
-          <a class="btn" href="https://twitter.com">Go to Tweet</a>
-        </div>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; margin-bottom: 30px;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img alt="Brand" style="margin-top: 0;" src="images/twitter-outline.png">
+            TwitPics
+        </a>
+        <form class="form-inline float-xs-right" id="searchForm">
+            <input id="searchField"  class="form-control" type="text" placeholder="">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
       </div>
-      <div class="tweet-card">
-        <img src="images/instagram.png">
-        <div>
-          <h4>Username 2</h4>
-          <p>This is my other tweet content</p>
-          <a class="btn" href="https://instagram.com">Let's not go to Tweet</a>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Search Results Container -->
+        <div class="card-columns" id="searchResults">
+
+          <!-- Assignment:
+          Add the appropriate Bootstrap classes to the HTML elements below to style the TwitPic page -->
+
+          <div class="">
+            <img  class="" src="images/twitter.png">
+            <div class="">
+              <h4 class="" >Username</h4>
+              <p class="" >This is my tweet content</p>
+              <a class="btn" href="https://twitter.com">Go to Tweet</a>
+            </div>
+          </div>
+        <div class="">
+          <img class="" src="images/instagram.png">
+          <div class="">
+            <h4 class="" >Username 2</h4>
+            <p class="" >This is my other tweet content</p>
+            <a class="btn" href="https://instagram.com">Let's not go to Tweet</a>
+          </div>
         </div>
       </div>
     </div>

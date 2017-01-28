@@ -1,6 +1,6 @@
 <img src="/img/ga-logo.png" style="border:none; background: transparent; box-shadow:none;" />
 
-# Programming for Beginners
+# Web Development Fundamentals
 
 Evan Johnson + Brian Cama
 
@@ -10,7 +10,7 @@ Evan Johnson + Brian Cama
 
 * Front-End Engineer, Amazon & Freelance Web Developer<!--- .element: class="fragment" data-fragment-index="1" -->
 * Both of us are self-taught<!--- .element: class="fragment" data-fragment-index="2" -->
-* Loves JavaScript<!--- .element: class="fragment" data-fragment-index="3" -->
+* Love JavaScript<!--- .element: class="fragment" data-fragment-index="3" -->
 
 ----
 
@@ -25,7 +25,7 @@ Evan Johnson + Brian Cama
 
 <img src="img/Octocat.png" width="200" style="border:none;box-shadow:none; width: 200px; display:block;margin:30px auto;background:transparent;"/>
 
-* https://github.com/js-workshops/intro
+* https://github.com/js-workshops/programming-for-beginners
 * Download files using git clone or the ‘Download Zip’ button
 * After unzipping the files, copy them to a directory you want to work from (i.e. ~/Document, ~/Desktop)
 
@@ -156,7 +156,7 @@ Anchor Tags (Links)
 
 <img src="/img/stranger-tags.png" style="border:none; background: transparent;" />
 
-## Code Along
+## Activity
 
 ----
 
