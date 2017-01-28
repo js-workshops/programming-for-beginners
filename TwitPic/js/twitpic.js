@@ -25,7 +25,28 @@ $(document).ready(function() {
 
     // Add your cardTemplate() function here
     function cardTemplate(tweet) {
-      // Step 3. Create HTML template
+      // Step 3. Finish HTML template
+      var resultHTML = '<div class="card">';                      // opening parent DIV
+      resultHTML += '<img src="';                                 // opening img tag
+      // Step 3.1. Add Image URL
+
+      resultHTML += '" class="card-img-top img-fluid" />'         // closing img tag
+      resultHTML += '<div class="card-block">';
+      resultHTML += '<h4 class="card-title">';
+      // Step 3.2. Add Twitter username to h4 tag
+
+      resultHTML += '</h4>';
+      resultHTML += '<p class="card-text">';
+      // Step 3.3. Add Tweet text to p tag
+
+      resultHTML += '</p>';
+      resultHTML += '<a href="';
+      // Step 3.4. Add Tweet url to href attribute of a tag
+
+      resultHTML += '" class="btn btn-primary" target="_blank">View Tweet</a>';
+      resultHTML += '</div>';
+      resultHTML += '</div>';                                     // closing parent DIV
+      return resultHTML;
     }
 
     for(var i = 0; i < dataArray.length; i++) {
