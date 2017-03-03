@@ -221,45 +221,6 @@ img {
 
 ### Where does CSS live?
 
-####Embedded
-
-<pre><!--- .element: class="fragment" data-fragment-index="2" --><code data-trim class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Title&lt;/title&gt;
-  &lt;style&gt;
-    p {
-      color: blue;
-    }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;This is styled with embedded CSS!&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
-----
-
-### Where does CSS live?
-
-####Inline
-
-<pre><!--- .element: class="fragment" data-fragment-index="2" --><code data-trim class="html">
-&lt;p style="color: purple;"&gt;This is styled inline!&lt;/p&gt;
-</code></pre>
-
-----
-
-### Code Along
-
-<img src="/img/code_along.png" style="border:none;box-shadow:none;background:transparent;" />
-
-----
-
-### Where does CSS live?
-
 ####External
 
 <pre><!--- .element: class="fragment" data-fragment-index="2" --><code data-trim class="html">
@@ -274,6 +235,12 @@ img {
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
+
+----
+
+### Code Along
+
+<img src="/img/code_along.png" style="border:none;box-shadow:none;background:transparent;" />
 
 ----
 
@@ -385,27 +352,6 @@ img {
 <pre><code data-trim class="css" contenteditable>
 li {
   color: gray;
-}
-</code></pre>
-
-----
-
-### Cascading
-
-C is for Cascading
-
-<pre><code data-trim class="html">
-&lt;div class="first"&gt;
-  &lt;p&gt;This is my first amazing paragraph!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;p&gt;This is my second amazing paragraph!&lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-
-<pre><code data-trim class="css" contenteditable>
-.first p {
-  font-weight: 700;
 }
 </code></pre>
 
@@ -608,7 +554,15 @@ Not all selectors are created equal
 
 ---
 
-## Front End Frameworks
+##Bootstrap
+
+<img src="/img/bootstrap.png" style="border:none; height:400px; background: transparent; box-shadow:none;" />
+
+----
+
+##Bootstrap
+
+Definitely the most popular JavaScript, CSS and HTML framework out there, Twitter Bootstrap is used in websites all over the internet.
 
 ----
 
@@ -621,37 +575,6 @@ Not all selectors are created equal
 ### Frameworks in Front End Web Development
 
 Most websites share a similar structure. Web Frameworks give us a standardized package of files that includes CSS, Javascript and even HTML Files.
-
-----
-
-###Don't Reinvent the Wheel
-
-Frameworks provide a common structure so that web developers don't have to start from scratch and can just reuse code
-
-----
-
-### Front End Frameworks
-
-Examples:
-* <!--- .element: class="fragment" data-fragment-index="1" -->Foundation
-* <!--- .element: class="fragment" data-fragment-index="2" -->Semantic UI
-* <!--- .element: class="fragment" data-fragment-index="3" -->Bootstrap
-
-----
-
-What might be some useful elements to have built into your project from the start?
-
----
-
-##Bootstrap
-
-<img src="/img/bootstrap.png" style="border:none; height:400px; background: transparent; box-shadow:none;" />
-
-----
-
-##Bootstrap
-
-Definitely the most popular JavaScript, CSS and HTML framework out there, Twitter Bootstrap is used in websites all over the internet.
 
 ----
 
